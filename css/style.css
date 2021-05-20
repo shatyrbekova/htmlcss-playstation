@@ -2,12 +2,14 @@
 /* Header  elements*/
 
 .section-fluid {
-    background-color: black;
+   width:100%;
 }
+
 .header-high-text {
 display: flex;
 justify-content: flex-end;
 color:white;
+background-color: black;
 }
 
 
@@ -38,8 +40,8 @@ padding-top: 350px;
     height:50px;
     width:130px;
     border-radius: 30px;
-    background-color: red;
-    border: red;
+    background-color:rgb(255, 94, 0);
+    border: none;
     color:white;
 }
 
@@ -102,4 +104,52 @@ a {
     color:#fff;
     margin-top: 30px;
     font-weight:500;
+}
+
+.takes-two-container {
+    min-height:600px;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position:  center center;
+    color:white;
+}
+.takes-two-min-container >* {
+    margin-bottom: 45px;
+}
+
+.takes-two-logo {
+    width:100%;
+    margin-top: 45px;
+
+}
+
+.new-arrives-container {
+    background-color: #1a1818;
+    color:white;
+}
+
+.box-new-games img{
+    width: 100%;
+}
+
+.box-new-games {
+    border-radius: 20px;
+    border:2px #1a1818 solid;
+    overflow:hidden;
+}
+
+.box-mini-games-inner {
+    border: 2px #1a1818 solid;
+    border-radius: 20px;
+    overflow:hidden;
+   
+}
+
+.box-new-games:hover {
+    border: 2px #0d6efd solid;
+}
+
+.text-new-arrives {
+    margin-bottom: 30px;
+    margin-top: 15px;
 }
