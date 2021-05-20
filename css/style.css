@@ -13,11 +13,27 @@ color:white;
 display: flex;
 flex-direction: column;
 justify-content: flex-end;
+color:white;
+padding-top: 350px;
+}
+.returnal-min-container > * {
+    margin-bottom: 50px;
 }
 .header.high-text h1 {
    
 }
 
-.header-costume-container img {
-    width:100%;
+.header-costume-container {
+   background-image: url(../img/jumbo-bg.png);
+   background-size: cover;
+   min-height:800px;
+}
+
+.button-header {
+    height:50px;
+    width:130px;
+    border-radius: 30px;
+    background-color: red;
+    border: red;
+    color:white;
 }
