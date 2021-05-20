@@ -1,0 +1,23 @@
+ 
+/* Header  elements*/
+
+.section-fluid {
+    background-color: black;
+}
+.header-high-text {
+display: flex;
+justify-content: flex-end;
+color:white;
+}
+.returnal-min-container {
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+}
+.header.high-text h1 {
+   
+}
+
+.header-costume-container img {
+    width:100%;
+}
