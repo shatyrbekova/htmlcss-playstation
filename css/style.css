@@ -9,6 +9,8 @@ display: flex;
 justify-content: flex-end;
 color:white;
 }
+
+
 .returnal-min-container {
 display: flex;
 flex-direction: column;
@@ -16,9 +18,11 @@ justify-content: flex-end;
 color:white;
 padding-top: 350px;
 }
+
 .returnal-min-container > * {
     margin-bottom: 50px;
 }
+
 .header.high-text h1 {
    
 }
@@ -27,6 +31,7 @@ padding-top: 350px;
    background-image: url(../img/jumbo-bg.png);
    background-size: cover;
    min-height:800px;
+   background-position: center center;
 }
 
 .button-header {
@@ -36,4 +41,41 @@ padding-top: 350px;
     background-color: red;
     border: red;
     color:white;
+}
+
+/* Main */
+
+.devices-container {
+    margin-top: 30px;
+}
+
+.box-mini-games img{
+    width: 100%;
+}
+
+.box-mini-games {
+    border-radius: 20px;
+    border:2px white solid;
+    overflow:hidden;
+}
+
+.box-mini-games-inner {
+    border: 2px white solid;
+    border-radius: 20px;
+    overflow:hidden;
+}
+
+.box-mini-games:hover {
+    border-bottom: 2px blue solid;
+}
+
+.playstation-thumb  {
+    width: 100%;
+}
+
+[class*="device"] :hover {
+ border: 1px blue solid;
+}
+.device img{
+    width:100%;
 }
