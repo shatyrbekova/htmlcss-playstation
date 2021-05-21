@@ -153,3 +153,40 @@ a {
     margin-bottom: 30px;
     margin-top: 15px;
 }
+
+.offers-ps4-container img {
+     width:100%;
+}
+
+.btn-ps4-container {
+    height:40px;
+    width:130px;
+    border-radius: 30px;
+    background-color: #2d64e6;
+    /* background-color: #004390; */
+    border: none;
+    color:white;
+}
+
+.psplus-container {
+    background-color: gray;
+}
+
+.psplus-mini-container {
+    padding-top: 45px;
+}
+
+.psplus-mini-container >* {
+    padding-bottom: 30px;
+}
+
+.psplus-container img{
+    width:70%;
+}
+
+.btn-psplus-container {
+    height: 40px;
+    width:210px;
+    border-radius: 30px;
+    color:#2d64e6;
+}
