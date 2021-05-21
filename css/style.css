@@ -91,7 +91,7 @@ text-align: center;
 .device img{
     width:100%;
 }
-a {
+ .devices-container a {
     text-decoration: none;
 }
 
@@ -118,7 +118,7 @@ a {
 }
 
 .takes-two-logo {
-    width:100%;
+    width:60%;
     margin-top: 45px;
 
 }
@@ -211,13 +211,35 @@ a {
     color:white;
 }
 
-.ps-now-container img{
+.ps-now-container img, .social-media-container img{
     width:100%;
 }
 .ps-now-mini-container img {
     width:60%;
 }
 
-.social-media-container img {
-    width:100%;
+.social-media-container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer-container {
+    background-color: #004390;
+    color:white;
+}
+
+
+footer svg, footer svg path {
+    fill:white;
+}
+
+footer ul li {
+    list-style: none;
+}
+footer svg{
+    width:30%;
+}
+
+footer a {
+    color: white;
 }
