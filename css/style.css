@@ -211,9 +211,13 @@ a {
     color:white;
 }
 
-.ps-now-container img {
+.ps-now-container img{
     width:100%;
 }
 .ps-now-mini-container img {
     width:60%;
+}
+
+.social-media-container img {
+    width:100%;
 }
