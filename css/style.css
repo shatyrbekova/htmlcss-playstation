@@ -1,32 +1,49 @@
- 
-/* Header  elements*/
 
-.section-fluid {
-   width:100%;
+.crucial-container {
+    font-family: Arial;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
+
+/* Navbar */
+.navbar li {
+    padding-left: 15px;
+}
+.sticky-top{
+    z-index: 1001;
+}
+.btn-nav {
+    width: 80px;
+    height: 45px;
+    border-radius: 30px;
+    border:none;
+    background-color: rgb(39, 37, 37);
+    color:white;
+}
+
+.navbar li img {
+    padding-top: 10px;
+    margin-left: 15px;
+   
+ }
+/* Header  elements*/
 
 .header-high-text {
 display: flex;
 justify-content: flex-end;
-color:white;
 background-color: black;
 }
-
 
 .returnal-min-container {
 display: flex;
 flex-direction: column;
 justify-content: flex-end;
-color:white;
 padding-top: 350px;
 }
 
 .returnal-min-container > * {
     margin-bottom: 50px;
-}
-
-.header.high-text h1 {
-   
 }
 
 .header-costume-container {
@@ -51,10 +68,6 @@ padding-top: 350px;
     margin-top: 30px;
 }
 
-.box-mini-games img{
-    width: 100%;
-}
-
 .box-mini-games {
     border-radius: 20px;
     border:2px white solid;
@@ -71,10 +84,6 @@ padding-top: 350px;
     border: 2px #0d6efd solid;
 }
 
-.playstation-thumb  {
-    width: 100%;
-}
-
 .devices-container {
     margin-top: 100px;
 }
@@ -88,9 +97,6 @@ text-align: center;
   border-bottom: 1px #0d6efd;
 }
 
-.device img{
-    width:100%;
-}
  .devices-container a {
     text-decoration: none;
 }
@@ -101,7 +107,6 @@ text-align: center;
     border-radius: 30px;
     background-color: #0d6efd;
     border:none;
-    color:#fff;
     margin-top: 30px;
     font-weight:500;
 }
@@ -111,8 +116,8 @@ text-align: center;
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
     background-position:  center center;
-    color:white;
 }
+
 .takes-two-min-container >* {
     margin-bottom: 45px;
 }
@@ -120,16 +125,10 @@ text-align: center;
 .takes-two-logo {
     width:60%;
     margin-top: 45px;
-
 }
 
 .new-arrives-container {
     background-color: #1a1818;
-    color:white;
-}
-
-.box-new-games img{
-    width: 100%;
 }
 
 .box-new-games {
@@ -141,8 +140,7 @@ text-align: center;
 .box-mini-games-inner {
     border: 2px #1a1818 solid;
     border-radius: 20px;
-    overflow:hidden;
-   
+    overflow:hidden; 
 }
 
 .box-new-games:hover {
@@ -154,24 +152,19 @@ text-align: center;
     margin-top: 15px;
 }
 
-.offers-ps4-container img {
-     width:100%;
-}
-
 .btn-ps4-container {
     height:40px;
     width:130px;
     border-radius: 30px;
     background-color: #2d64e6;
-    /* background-color: #004390; */
     border: none;
-    color:white;
 }
 
 .psplus-container {
     background-color: gray;
     margin-top: 30px;
 }
+
 
 .psplus-mini-container {
     padding-top: 45px;
@@ -202,18 +195,13 @@ text-align: center;
     padding-bottom: 60px;
 }
 .ps-store-container img {
-    width:100%;
     padding:10px;
 }
 
 .ps-now-container {
     background-color: rgb(6, 6, 31);
-    color:white;
 }
 
-.ps-now-container img, .social-media-container img{
-    width:100%;
-}
 .ps-now-mini-container img {
     width:60%;
 }
@@ -225,9 +213,8 @@ text-align: center;
 
 .footer-container {
     background-color: #004390;
-    color:white;
+    font-size:20px;
 }
-
 
 footer svg, footer svg path {
     fill:white;
@@ -237,7 +224,24 @@ footer ul li {
     list-style: none;
 }
 
+ /* Common css elements */
 
-footer a {
+.btn-ps4-container,  .ps-now-container, footer a, .footer-container, 
+.btn-devices-container, .takes-two-container, .returnal-min-container,
+.header-high-text, .new-arrives-container
+{
     color: white;
+}
+
+.ps-now-container img, .social-media-container img, 
+.ps-store-container img,.playstation-thumb, .box-new-games img,
+.offers-ps4-container img, .device img, .box-mini-games img, 
+.psplus-mini-container-two img
+{
+    width:100%;
+}
+
+p {
+    
+    font-size: 20px;
 }
