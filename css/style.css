@@ -16,8 +16,7 @@
  
  .img-ps-now-container, .social-media-container img, 
  .ps-store-container img,.playstation-thumb, .box-new-games img,
- .offers-ps4-container img, .device img, .box-mini-games img, 
- .psplus-mini-container-two img
+ .offers-ps4-container img, .device img, .box-mini-games img
  {
      width:100%;
  }
@@ -73,6 +72,7 @@ padding-top: 350px;
 header p {
     font-size: 18px;
 }
+
 .returnal-min-container > * {
     margin-bottom: 50px;
 }
@@ -121,14 +121,16 @@ header p {
 [class^="device"]{
 margin-left: 30px;
 text-align: center;
+border-bottom: 2px solid transparent;
+margin-bottom: 30px;
 }
 
 .device img {
     opacity: .7;
 }
 
-.device:hover hr{
- border: 2px #0d6efd solid;
+.device:hover {
+ border-bottom: 2px #0d6efd solid;
  opacity: 1;
 }
 
@@ -174,6 +176,7 @@ text-align: center;
     width:60%;
     margin-top: 45px;
 }
+
 .takes-two-min-container p {
     font-size: 19px;
 }
@@ -202,10 +205,12 @@ text-align: center;
     margin-bottom: 30px;
     margin-top: 15px;
 }
+
 .explore-ps-container {
     margin-top: 75px;
     margin-bottom: 75px;
 }
+
 .text-explore-ps h1, .social-media-container h1 {
     font-size: 45px;
 }
@@ -225,20 +230,30 @@ text-align: center;
 
 .psplus-container {
     background-color: gray;
+    height:100%;
+    width:100%;
 }
 
-.psplus-mini-container, .ps-now-mini-container {
+ .ps-now-mini-container {
     padding-top: 80px;
     padding-bottom: 30px;
 }
 
-.psplus-mini-container >*{
+.psplus-mini-container img, .psplus-mini-container   h2, .psplus-mini-container  p{
     margin-bottom: 30px;
 }
 
+.psplus-mini-container img {
+    width:100%;
+    margin-top: 30px;
+}
+.psplus-mini-container-two img {
+    max-width:100%;
+    max-height:100%;
+}
 
-.psplus-container img, .ps-now-mini-container img{
-    width:70%;
+.ps-now-mini-container img{
+  width:70%;
 }
 
 .psplus-mini-container button, .btn-ps-now-container{
@@ -247,6 +262,10 @@ text-align: center;
     border-radius: 30px;
     color:#2d64e6;
     border: none;
+}
+
+.ps-now-container button {
+    color:black;
 }
 
 .ps-store-container h2, .ps-store-container p {
@@ -260,10 +279,12 @@ text-align: center;
 .ps-store-container img {
     margin:10px;
 }
+
 .ps-store-container {
     margin-top: 60px;
     margin-bottom: 60px;
 }
+
 .ps-store-container p {
     font-size: 24px;
     color:rgb(100, 98, 98);
@@ -310,7 +331,6 @@ footer i {
     margin-right: 10px;
 }
 
-
 /* Media queries */
 
 @media all and (max-width: 576px) {
@@ -320,6 +340,9 @@ footer i {
     .footer-mini-container {
         padding: 30px;
     }
+    .psplus-mini-container button {
+        margin-bottom: 30px;
+    }
 }
 
 @media all and (max-width: 992px) {
@@ -327,7 +350,7 @@ footer i {
       padding-top:20px;
       padding-bottom: 50px;
     }
-
+    
     .footer-mini-container ul {
       margin-bottom: 0;
     }
