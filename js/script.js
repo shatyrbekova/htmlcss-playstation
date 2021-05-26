@@ -4,4 +4,4 @@
 
 document.getElementById ('myID').innerHTML = "Hello from a Booleaner!"; 
 
-alert('Accedi all app boolean.it con le credenziali Google')
+alert('Accedi all\'app boolean.it con le credenziali Google')
